@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indexcss.css">
+    <link rel="icon" href="Img/CBpool'logo.png">
+    <title>CB Pool</title>
+</head>
+
+<body>
+    <div class="slider">
+        <div class="slides" id="slides">
+
+            <div class="slide">
+                <img src="Img/Picture2.jpg">
+            </div>
+
+            <div class="slide">
+                <img src="Img/Picture1.jpg">
+            </div>
+
+            <div class="slide">
+                <img src="Img/Picture3.jpg">
+            </div>
+
+            <div class="slide">
+                <img src="Img/Picture4.jpg">
+            </div>
+
+
+            <div class="slide">
+                <img src="Img/Picture5.jpg">
+            </div>
+
+            <div class="slide">
+                <img src="Img/Picture6.jpg">
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    <div class="contenido">
+        <img src="Img/CBpool'logo.png" alt="">
+
+    </div>
+
+    <div class="DivMenuOpciones">
+        <nav>
+            <ul class="menuOpcione">
+                <a href="#">
+                    <img src="Img/CBpool'logo.png" alt="">
+                </a>
+                <li><a href="#Nosotros">Nosotros</a></li>
+                <li><a href="prueba.html">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <video autoplay muted loop playsinline class="video-fondo" id="videoFondo">
+        <source src="Videos/videoFondo.mp4" type="video/mp4">
+    </video>
+
+    <div class="overlay"></div>
+
+    <div class="nosotros" id="Nosotros">
+
+        <p>Todo lo que necesitas lo tienes aqui!</p>
+    </div>
+
+
+    <div class="valores">
+        <div class="contenedorValores">
+            <img src="Img/Picture1.jpg" alt="">
+            <div class="DivInfoValores">
+                <h4>Equipos</h4>
+                <p>Equipos para piscinas desde bombas variables, skimmer, receptáculos, inyectores, calentadores,
+                    control de
+                    wifi</p>
+            </div>
+
+        </div>
+
+
+
+        <div class="contenedorValores">
+            <img src="Img/Picture1.jpg" alt="">
+
+            <div class="DivInfoValores">
+                <h4>limpieza</h4>
+                <p>Articulos para limpieza de piscinas desde colador de superficie, colador de fondo, barra telescópica,
+                    mangueras</p>
+            </div>
+
+
+        </div>
+
+
+
+        <div class="contenedorValores">
+            <img src="Img/Picture1.jpg" alt="">
+
+            <div class="DivInfoValores">
+                <h4>mantenimiento</h4>
+                <p>Servicio de mantenimiento para piscinas, limpieza, evaluación certificada, seguridad y garantía para
+                    su
+                    comfort</p>
+            </div>
+
+
+        </div>
+
+
+
+        <div class="contenedorValores">
+            <img src="Img/Picture1.jpg" alt="">
+
+            <div class="DivInfoValores">
+                <h4>jacuzzi</h4>
+                <p>Venta e instalación de Jacuzzi, de fibra con capacidad de jacuzzis para 3 personas, 4 a 6 personas, 4
+                    a 8
+                    personas, 4 a 10 personas</p>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+    <br><br><br><br><br>
+
+
+    <!-- ------------------------ -->
+    <script>
+        let index = 0;
+        const slides = document.getElementById("slides");
+        const totalSlides = document.querySelectorAll(".slide").length;
+
+        function moverSlider() {
+            index++;
+            slides.style.transition = "transform 1s ease-in-out";
+            slides.style.transform = `translateX(-${index * 100}%)`;
+
+            if (index === totalSlides - 1) {
+                setTimeout(() => {
+                    slides.style.transition = "none";
+                    slides.style.transform = "translateX(0%)";
+
+                    index = 0;
+                }, 1000);
+            }
+        }
+
+        setInterval(moverSlider, 4000);
+    </script>
+
+    <script>
+        const video = document.getElementById("videoFondo");
+
+        video.addEventListener("loadeddata", () => {
+            video.playbackRate = 0.4;
+        });
+    </script>
+</body>
+
+</html>

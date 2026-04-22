@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="prueba.css">
+</head>
+<body>
+
+
+<video autoplay muted loop playsinline class="video-fondo" id="videoFondo">
+  <source src="Videos/videoFondo.mp4" type="video/mp4">
+</video>
+
+<div class="overlay"></div>
+
+
+<script>
+  const video = document.getElementById("videoFondo");
+
+  video.addEventListener("loadeddata", () => {
+    video.playbackRate = 0.4;
+  });
+</script>
+</body>
+</html>
