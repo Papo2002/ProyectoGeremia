@@ -1275,6 +1275,14 @@ transition: 0.7s;
 }
 
 
+.proyectos a{
+  padding: 15px 30px;
+  background-color: #00335E;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+}
+
 /* Móviles pequeños: iPhone 5 en adelante */
 @media (max-width: 360px)  { 
  
@@ -1355,6 +1363,231 @@ transition: 0.7s;
 }
 
 
+.proyectos h3{
+  font-size: 35px;
+  margin: 0;
+}
+
+.proyectos h4{
+  font-size: medium;
+
+  margin: 0;
+}
+
+
+
+.proyectos p{
+  width: 93%;
+  margin:  25px 0;
+  font-size: 15px;
+}
+
+br{
+  display: none;
+}
+
+.divFondo{
+  flex-direction: column;
+  gap: 50px;
+  padding: 40px 0;
+}
+
+.divVideo{
+  width: 100%;
+}
+
+.videoINtro{
+  width: 70%;
+}
+
+.videoINtro:hover{
+transform: scale(1);
+}
+
+.porqueElegirnos{
+  width: 80%;
+  padding: 50px 25px;
+  height: 70%;
+  text-align: center;
+}
+
+.porqueElegirnos h4{
+  font-size: medium;
+}
+
+.porqueElegirnos h3{
+  font-size: 30px;
+}
+
+.columnas{
+  margin: 30px 0;
+  
+flex-direction: column;
+text-align: start;
+}
+
+
+
+.columna1, .columna2{
+  width: 100%;
+  
+  
+}
+
+.porqueElegirnos p{
+  width: 100%;
+  margin: 10px 0 20px 0;
+
+}
+
+.porqueElegirnos h5{
+  font-size: 11px;
+  margin:  0 auto;
+}
+
+.mision{
+  align-items: center;
+
+}
+
+.mision h3 {
+  font-size: 35px;
+  width: 90%;
+}
+
+.mision p{
+  width: 90%;
+  font-size: medium;
+}
+
+.preguntas{
+  width: 85%;
+  padding: 25px 15px;
+}
+
+.preguntasParte0{
+  gap: 20px;
+  flex-direction: column;
+}
+
+.preguntas h3{
+  font-size: 25px;
+}
+
+.preguntasParte1, .preguntasParte2{
+  width: 100%;
+}
+
+.preguntas p{
+  margin: 10px 0;
+  width: 94%;
+}
+
+.preguntas h4{
+  text-align: center;
+  
+  font-size: medium;
+}
+
+.preguntas h4:hover{
+  transform: scale(1);
+}
+
+.divSocios{
+  padding: 0;
+}
+
+.divSocios h4{
+  font-size: 30px;
+}
+
+.socios p{
+  width: 95%;
+}
+
+.divSocios2{
+flex-direction: column;
+}
+
+.opinionCliente2 p{
+  width: 95%;
+}
+
+.opiniones{
+  width: 95%;
+  padding: 2px 0;
+  margin-bottom: 70px;
+}
+
+.opinionClientes h5{
+  font-size: 35px;
+}
+
+.opinionClientes p{
+  font-size: medium;
+}
+
+.contactos{
+  padding: 60px 0;
+  
+}
+
+.contactos2{
+  margin-left: 20px;
+}
+
+.opiniones p{
+  font-size: medium;
+  width: 90%;
+}
+
+.opiniones h5{
+  font-size: large;
+}
+
+.contactos h4{
+  font-size:  10px;
+  width: 50%;
+  margin: 10px auto;
+}
+
+.contactos h5{
+  font-size: 35px;
+  width: 96%;
+}
+
+.contactos p{
+  width: 90%;
+  font-size: 15px;
+}
+
+.bibliografia{
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 30px;
+  padding: 0;
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+.contenedor{
+  width: 90%;
+  margin: 20px  ;
+}
+
+.servicios{
+  width: 60%;
+  text-align: start;
+}
+
+.contactos2 a, .contactos2 li, .contactos2 p,.servicios p, .contenedor p, .enlaces a{
+  font-size: 15px ;
+  width: 90%;
+  margin: 0px 0;
+  margin-top: 10px;
+}
+
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -1426,6 +1659,198 @@ transition: 0.7s;
 
 .wave-wrapper2{
   display: none;
+}
+
+.proyectos h3{
+  font-size: 45px;
+  margin: 0;
+}
+
+.proyectos h4{
+  font-size: large;
+
+  margin: 0;
+}
+
+
+
+.proyectos p{
+  width: 93%;
+  margin:  25px 0;
+  font-size: 17px;
+}
+
+br{
+  display: none;
+}
+
+.divFondo{
+  flex-direction: column;
+  gap: 50px;
+  padding: 40px 0;
+}
+
+.divVideo{
+  width: 100%;
+}
+
+.videoINtro{
+  width: 70%;
+}
+
+.videoINtro:hover{
+  transform: scale(1);
+}
+
+.porqueElegirnos{
+  width: 85%;
+  padding: 25px;
+  height: 70%;
+}
+
+.porqueElegirnos h4{
+  font-size: medium;
+}
+
+.porqueElegirnos h3{
+  font-size: 30px;
+}
+
+.columnas{
+  margin: 30px 0;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.columna1, .columna2{
+  width: 100%;
+  text-align: start;
+}
+
+.porqueElegirnos p{
+  width: 100%;
+  margin: 10px 0 20px 0;
+
+}
+
+.porqueElegirnos h5{
+  font-size: 11px;
+  text-align: center;
+}
+
+.mision{
+  align-items: center;
+
+}
+
+.mision h3 {
+  font-size: 50px;
+  width: 90%;
+}
+
+.mision p{
+  width: 90%;
+  font-size: medium;
+}
+
+.preguntas{
+  width: 85%;
+  padding: 25px;
+}
+
+.preguntasParte0{
+  gap: 20px;
+  flex-direction: column;
+}
+
+.preguntas h3{
+  font-size: 25px;
+}
+
+.preguntasParte1, .preguntasParte2{
+  width: 100%;
+}
+
+.preguntas p{
+  margin: 10px 0;
+  width: 94%;
+}
+
+.preguntas h4{
+  text-align: center;
+  
+  font-size: medium;
+}
+
+.divSocios{
+  padding: 0;
+}
+
+.divSocios h4{
+  font-size: 30px;
+}
+
+.socios p{
+  width: 95%;
+}
+
+.divSocios2{
+flex-direction: column;
+}
+
+.opinionCliente2 p{
+  width: 95%;
+}
+
+.opiniones{
+  width: 95%;
+  padding: 2px 0;
+  margin-bottom: 70px;
+}
+
+.contactos{
+  padding: 60px 0;
+  
+}
+
+.contactos h4{
+  font-size:  6px;
+}
+
+.contactos h5{
+  font-size: 35px;
+  width: 96%;
+}
+
+.contactos p{
+  width: 94%;
+  font-size: medium;
+}
+
+.bibliografia{
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 30px;
+  padding: 0;
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+.contenedor{
+  width: 90%;
+  margin: 20px ;
+}
+
+.servicios{
+  width: 60%;
+}
+
+.contactos2 a, .contactos2 li, .contactos2 p,.servicios p, .contenedor p, .enlaces a{
+  font-size: 15px ;
+  width: 90%;
+  margin: 0px 0;
+  margin-top: 10px;
 }
 
 }
