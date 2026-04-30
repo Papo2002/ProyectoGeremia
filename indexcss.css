@@ -1125,6 +1125,7 @@ transition: 0.7s;
   text-align: justify;
 }
 
+
 .contenedor h5{
       background: linear-gradient(
     to bottom,
@@ -1299,9 +1300,13 @@ transition: 0.7s;
 
 .contenedorValores{
   
-  flex: 0 1 clamp(250px, 10%, 200px);
-  height: 80vh;
+  flex: 0 1 clamp(270px, 10%, 200px);
+  height: 40vh;
   
+}
+
+.contenedorValores:hover{
+  transform: scale(1);
 }
 
 
@@ -1325,8 +1330,8 @@ transition: 0.7s;
 
 .Somos{
   width: 100%;
-  padding: 100px 0;
-  height: 130vh;
+  padding: 130px 0;
+  
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
@@ -1441,8 +1446,9 @@ text-align: start;
 }
 
 .porqueElegirnos h5{
-  font-size: 11px;
+  font-size: 13px;
   margin:  0 auto;
+  text-align: center;
 }
 
 .mision{
@@ -1462,7 +1468,7 @@ text-align: start;
 
 .preguntas{
   width: 85%;
-  padding: 25px 15px;
+  padding: 25px 25px;
 }
 
 .preguntasParte0{
@@ -1472,6 +1478,7 @@ text-align: start;
 
 .preguntas h3{
   font-size: 25px;
+  margin-bottom: 20px;
 }
 
 .preguntasParte1, .preguntasParte2{
@@ -1495,6 +1502,10 @@ text-align: start;
 
 .divSocios{
   padding: 0;
+}
+
+.divSocios2:hover{
+  transform: scale(1);
 }
 
 .divSocios h4{
@@ -1537,7 +1548,7 @@ flex-direction: column;
 }
 
 .opiniones p{
-  font-size: medium;
+  font-size: 13px;
   width: 90%;
 }
 
@@ -1547,13 +1558,13 @@ flex-direction: column;
 
 .contactos h4{
   font-size:  10px;
-  width: 50%;
+  width: 80%;
   margin: 10px auto;
 }
 
 .contactos h5{
-  font-size: 35px;
-  width: 96%;
+  font-size: 30px;
+  width: 97%;
 }
 
 .contactos p{
@@ -1581,17 +1592,31 @@ flex-direction: column;
   text-align: start;
 }
 
-.contactos2 a, .contactos2 li, .contactos2 p,.servicios p, .contenedor p, .enlaces a{
-  font-size: 15px ;
+.contactos2 a, .contactos2 li, .contactos2 p,.servicios a, .contenedor p, .enlaces a{
+  font-size: 14px ;
   width: 90%;
   margin: 0px 0;
   margin-top: 10px;
 }
 
+
+.servicios{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.servicios a{
+  margin-left: 20px;
+}
+
+
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
  
+
+
 .nosotros p{
   font-size: 32px;
   width: 94%;
